@@ -1,0 +1,23 @@
+.idea/
+.vscode/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Django SQLite fallback
+db.sqlite3
+
+# Node / React
+frontend/exemplu/node_modules/
+frontend/exemplu/build/
+
+# Docker
+*.pid
+*.log
+
+# Env secrets
+*.env
+*.md

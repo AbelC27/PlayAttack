@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: ./backend
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    env_file:
+      - ./backend/.env
+
+  frontend:
+    build: ./frontend
+    command: ["npm", "start"]
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/exemplu:/usr/src/app
+      - node_modules_cache:/usr/src/app/node_modules
+      
+    depends_on:
+      - backend
+
+volumes:
+  node_modules_cache:

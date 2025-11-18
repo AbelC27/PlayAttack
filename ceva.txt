@@ -1,0 +1,31 @@
+Must have:
+1. Django + React + supabase
+2. Encriptie
+3. MVP
+4. Teste
+5. sign up/log in
+6. Orice utilizator poate sa isi puna subscription sale pt serviciul lui
+7. O subscription generala pentru cei ce folosesc acest serviciu
+8. Fiecare face o pagina
+
+
+
+Nice to Have
+1. Card payment - stripe
+2. Docker
+3. Forum
+4. Grafice cu raport pe ultimele luni
+5. Trimite mail crestere subscription
+6. 
+
+Req:
+Abel: Docker, stripe, forum, UI/UX
+Casi: Docker, stripe,
+Anastasia: Grafice, Trimite mail, 
+Teodora: UI/UX, forum,
+
+Pana joi/Vineri:
+1 Pagina sign up - Casi
+1 Pagina log in - Anastasia
+1 Pagina dasboard Admin - Abel
+1 Pagina dasboard User - Teodora

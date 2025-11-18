@@ -1,0 +1,17 @@
+Django>=5.0
+djangorestframework
+django-cors-headers
+matplotlib
+supabase
+psycopg2-binary
+dj-database-url>=1.0.0
+python-dotenv
+requests
+python-jose
+stripe
+reportlab
+Pillow
+scikit-learn
+pandas
+numpy
+joblib
